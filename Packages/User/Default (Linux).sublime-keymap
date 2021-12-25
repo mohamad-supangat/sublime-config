@@ -1,0 +1,165 @@
+[
+    {
+        "command": "move",
+        "context": [
+            {
+                "key": "control",
+                "operand": "sidebar_tree"
+            }
+        ],
+        "keys": [
+            "h"
+        ],
+        "args": {
+            "by": "characters",
+            "forward": false
+        }
+    },
+    {
+        "command": "move",
+        "context": [
+            {
+                "key": "control",
+                "operand": "sidebar_tree"
+            }
+        ],
+        "keys": [
+            "j"
+        ],
+        "args": {
+            "by": "lines",
+            "forward": true
+        }
+    },
+    {
+        "command": "move",
+        "context": [
+            {
+                "key": "control",
+                "operand": "sidebar_tree"
+            }
+        ],
+        "keys": [
+            "k"
+        ],
+        "args": {
+            "by": "lines",
+            "forward": false
+        }
+    },
+    {
+        "command": "move",
+        "context": [
+            {
+                "key": "control",
+                "operand": "sidebar_tree"
+            }
+        ],
+        "keys": [
+            "l"
+        ],
+        "args": {
+            "by": "characters",
+            "forward": true
+        }
+    },
+    {
+        "command": "delete_word",
+        "keys": [
+            "alt+backspace"
+        ],
+        "args": {
+            "forward": false
+        }
+    },
+    {
+        "command": "paste",
+        "keys": [
+            "alt+v"
+        ]
+    },
+    {
+        "command": "move",
+        "context": [
+            {
+                "key": "auto_complete_visible"
+            }
+        ],
+        "keys": [
+            "tab"
+        ],
+        "args": {
+            "by": "lines",
+            "forward": true
+        }
+    },
+    {
+        "command": "move",
+        "context": [
+            {
+                "key": "auto_complete_visible"
+            }
+        ],
+        "keys": [
+            "shift+tab"
+        ],
+        "args": {
+            "by": "lines",
+            "forward": false
+        }
+    },
+    {
+        "command": "neovintageous",
+        "context": [
+            {
+                "key": "control",
+                "operand": "sidebar_tree"
+            }
+        ],
+        "keys": [
+            ",",
+            "d"
+        ],
+        "args": {
+            "action": "toggle_side_bar"
+        }
+    },
+    {
+        "command": "nv_enter_normal_mode",
+        "context": [
+            {
+                "key": "vi_insert_mode_aware"
+            }
+        ],
+        "keys": [
+            "j",
+            "k"
+        ],
+        "args": {
+            "mode": "mode_insert"
+        }
+    },
+    {
+        "command": "focus_neighboring_group",
+        "keys": [
+            "ctrl+k",
+            "ctrl+left"
+        ],
+        "args": {
+            "forward": false
+        }
+    },
+    {
+        "command": "focus_neighboring_group",
+        "keys": [
+            "ctrl+l"
+        ]
+    },
+    {
+        "command": "focus_neighboring_group",
+        "args": {"forward": false},
+        "keys": [
+            "ctrl+h"
+        ]
+    }
+]

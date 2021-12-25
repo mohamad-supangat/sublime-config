@@ -1,0 +1,18 @@
+{
+    "font_face": "Iosevka",
+    "vintageous_use_sys_clipboard": true,
+    "vintageous_reset_mode_when_switching_tabs": true,
+    "vintageous_i_escape_jk": true,
+    "vintageous_i_escape_jj": true,
+    "install_prereleases": [
+        "NeoVintageous"
+    ],
+    "theme": "Gruvbox Material Dark.sublime-theme",
+    "neovintageous_build_version": 11100,
+    "ignored_packages": [
+        "Six",
+        "Vintage",
+        "Vintageous",
+    ],
+    "color_scheme": "Monokai.sublime-color-scheme",
+}
