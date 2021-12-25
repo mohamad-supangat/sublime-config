@@ -5,3 +5,4 @@ this repo contains my config for make sublime text as alternative of neovim, any
 
 
 
+![ss1.png](./ss1.png)
